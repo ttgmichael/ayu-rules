@@ -11,20 +11,21 @@
     "prepublish": "run-s build svg",
     "clear-build": "rimraf dist",
     "start": "run-s build svg test",
-    "test": "node dist/__test__"
+    "test": "node dist/__test__",
+    "contrast": "node scripts/contrast-test.js"
   },
   "files": [
     "dist"
   ],
   "repository": {
-    "url": "https://github.com/ayu-theme/ayu-colors",
+    "url": "https://github.com/ttgmichael/ayu-rules",
     "type": "git"
   },
   "author": "Konstantin Pschera <me@kons.ch>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^9.4.6",
-    "font-color-contrast": "1.0.3",
+    "font-color-contrast": "^1.0.3",
     "is-object": "1.0.1",
     "npm-run-all": "3.1.1",
     "rimraf": "2.5.4",
