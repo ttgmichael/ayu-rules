@@ -1,7 +1,7 @@
 {
-  "name": "ayu",
-  "version": "8.0.1",
-  "description": "The ayu sublime theme as a color palette",
+  "name": "ayu-rules",
+  "version": "1.0.1",
+  "description": "Color schemes that syntactically uses ayu-rules as a template",
   "main": "dist/colors.js",
   "types": "dist/colors.d.ts",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/ttgmichael/ayu-rules",
     "type": "git"
   },
-  "author": "Konstantin Pschera <me@kons.ch>",
+  "author": "Michael Tang",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^9.4.6",
