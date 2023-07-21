@@ -22,7 +22,7 @@ const syntax = {
   string:   e`#a2ae6b`,
   keyword:  e`#c64d08`,
   operator: e`#c64d08`, // ++, |, &, =>, :, =, class?
-  constant: e`#ba714a`, // numbers, parameters, true, false, 
+  constant: e`#A7752A`, // numbers, parameters, true, false, 
   tag:      e`#e08883`, // html tags, this?
   markup:   e`#cea260`,
   special:  e`#cea260`,
