@@ -57,4 +57,6 @@ export class Color {
 export default (bg: string) => (hex: TemplateStringsArray) =>
   new Color(chroma(hex.join('')), chroma(bg))
 
+export const coolor = (bgc: string) => (fgc: string) => new Color(chroma(fgc), chroma(bgc))
+
 export const alphaBlend = (blend: boolean) => (Color.blend = blend)

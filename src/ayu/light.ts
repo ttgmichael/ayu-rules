@@ -1,4 +1,4 @@
-import color from './color'
+import color from '../color'
 
 const u = color('F8F9FA')
 const e = color('FCFCFC')

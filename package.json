@@ -1,7 +1,7 @@
 {
   "name": "ayu-rules",
   "version": "1.0.1",
-  "description": "Color schemes that syntactically uses ayu-rules as a template",
+  "description": "Color schemes that uses ayu syntax/selection rules as a template",
   "main": "dist/colors.js",
   "types": "dist/colors.d.ts",
   "scripts": {
