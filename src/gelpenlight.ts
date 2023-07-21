@@ -73,8 +73,8 @@ const ui = {
 }
 
 const common = { // accent is used almost everywhere...
-  accent: u`#33d1e0`,
-  error:  u`#E65050`
+  accent: u`#61a8fa`,
+  error:  u`#d43a35`
 }
 
 export default {
