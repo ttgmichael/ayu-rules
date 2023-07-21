@@ -22,7 +22,7 @@ const syntax = {
   string:   e`#a2ae6b`,
   keyword:  e`#c64d08`,
   operator: e`#c64d08`, // ++, |, &, =>, :, =, class?
-  constant: e`#A7752A`, // numbers, parameters, true, false, 
+  constant: e`#DDA420`, // numbers, parameters, true, false, 
   tag:      e`#e08883`, // html tags, this?
   markup:   e`#cea260`,
   special:  e`#cea260`,
@@ -37,9 +37,9 @@ const vcs = {
 }
 
 const editor = {
-  fg: e`#BFBDB6`,
-  bg: e`#0D1017`,
-  line: e`#131721`,
+  fg: f(`${t1}`),
+  bg: f(`${d}`),
+  line: f(`${t2}`)
   selection: {
     active:   e`#409FFF`.alpha(0.3),
     inactive: e`#409FFF`.alpha(0.13)
@@ -49,25 +49,25 @@ const editor = {
     inactive: e`#6C5980`.alpha(0.4)
   },
   gutter: {
-    active: e`6C7380`.alpha(0.9),
-    normal: e`6C7380`.alpha(0.6)
+    active: f(`${t2}`).alpha(0.9),
+    normal: f(`${t2}`).alpha(0.6)
   },
   indentGuide: {
-    active: e`6C7380`.alpha(0.5),
-    normal: e`6C7380`.alpha(0.2)
+    active: f(`${t2}`).alpha(0.5),
+    normal: f(`${t2}`).alpha(0.2)
   }
 }
 
 const ui = {
-  fg: u`#565B66`,
-  bg: u`#0B0E14`,
-  line: u`11151C`,
+  fg: v(`${t2}`),
+  bg: v(`${i}`),
+  line: v(`${t3}`),
   selection: {
-    active: u`#475266`.alpha(0.25),
-    normal: u`#475266`.alpha(0.2)
+    active: v(`${t4}`).alpha(0.25),
+    normal: v(`${t3}`).alpha(0.2)
   },
   panel: {
-    bg:     u`0F131A`,
+    bg:     v(`${p}`),
     shadow: u`000000`.alpha(0.5)
   }
 }
