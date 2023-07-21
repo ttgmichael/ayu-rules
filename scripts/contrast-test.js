@@ -6,7 +6,7 @@ const colors = require('../dist/colors')
 const { Color } = require('../dist/color')
 const assert = require('assert')
 
-const syntax = colors.gelpen.syntax
+const syntax = colors.petrified.syntax
 
 for (let key in syntax) {
   if (syntax[key] instanceof Color) {

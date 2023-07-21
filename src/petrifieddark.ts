@@ -17,15 +17,15 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#3185fc`, //
-  entity:   e`#9148e5`, // types
-  string:   e`#26b65d`,
-  keyword:  e`#cc4168`,
-  operator: e`#cc4168`, // ++, |, &, =>, :, =, class?
-  constant: e`#e25ac0`, // numbers, parameters, true, false, 
-  tag:      e`#33d1e0`, // html tags, this?
-  markup:   e`#ef8181`,
-  special:  e`#ef8181`,
+  func:     e`#7fc8f8`, //
+  entity:   e`#6770ca`, // types
+  string:   e`#abb47e`,
+  keyword:  e`#c64d08`,
+  operator: e`#c64d08`, // ++, |, &, =>, :, =, class?
+  constant: e`#b67755`, // numbers, parameters, true, false, 
+  tag:      e`#e08883`, // html tags, this?
+  markup:   e`#cea260`,
+  special:  e`#cea260`,
   comment:  e`#787B80`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
@@ -73,7 +73,7 @@ const ui = {
 }
 
 const common = {
-  accent: u`#33d1e0`,
+  accent: u`#b67755`,
   error:  u`#D95757`
 }
 
