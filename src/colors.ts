@@ -2,7 +2,7 @@ import rawDark from './ayu/dark'
 import rawLight from './ayu/light'
 import rawMirage from './ayu/mirage'
 import rawGelpen from './gelpenlight'
-import rawGelpenDark from './gelpenlight'
+import rawGelpenDark from './gelpendark'
 
 export type Scheme = typeof rawDark
 
