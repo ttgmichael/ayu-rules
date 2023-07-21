@@ -1,7 +1,3 @@
-![ayu](http://i.imgur.com/b3etBQX.png)
-
-> The colors of [@dempfi's](https://github.com/dempfi) beautiful [ayu color scheme](https://github.com/dempfi/ayu) extracted as a NPM package.
-
 ### Installation
 
 ```
