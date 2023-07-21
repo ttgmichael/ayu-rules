@@ -52,6 +52,11 @@ export class Color {
   brighten(value: number) {
     return new Color(this.color.brighten(value), this.bg)
   }
+
+  mix(hex: string, ratio=0.5){
+    return new Color(chroma.mix(this.color, hex, ratio), this.bg)
+  }
+
 }
 
 export default (bg: string) => (hex: TemplateStringsArray) =>

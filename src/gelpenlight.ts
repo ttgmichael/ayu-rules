@@ -1,14 +1,14 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#FCFCFC' // editor
-const i = '#F8F9FA' // sidebar
-const p = '#F3F4F5' // panel
+const d = '#f5f5f5' // editor
+const i = '#f0f2f5' // sidebar
+const p = '#eef0f1' // panel
 
-const t1 = '#5C6166' // editor text font
-const t2 = '#8A9199' // ui text font/ editor border font
-const t3 = '#6B7D8F' // ui border color
-const t4 = '#56728F' // ui active selection
+const t1 = '#565c61' // editor text font
+const t2 = '#7f8790' // ui text font/ editor border font
+const t3 = '#687d92' // ui border color
+const t4 = '#476585' // ui active selection
 
 const e = color(d)
 const u = color(i)
@@ -20,12 +20,12 @@ const syntax = {
   func:     e`#3185fc`, //
   entity:   e`#cc4168`, // types
   string:   e`#26b65d`,
-  keyword:  e`#8655be`,
-  operator: e`#8655be`, // ++, |, &, =>, :, =, class?
-  constant: e`#d96abe`, // numbers, parameters, true, false, 
+  keyword:  e`#9148e5`,
+  operator: e`#9148e5`, // ++, |, &, =>, :, =, class?
+  constant: e`#e25ac0`, // numbers, parameters, true, false, 
   tag:      e`#33d1e0`, // html tags, this?
-  markup:   e`#ea9494`,
-  special:  e`#ea9494`,
+  markup:   e`#ef8181`,
+  special:  e`#ef8181`,
   comment:  e`#787B80`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
