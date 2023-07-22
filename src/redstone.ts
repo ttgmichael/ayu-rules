@@ -1,14 +1,14 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#dedfdd' // editor
-const i = '#d8dbd7' // sidebar
-const p = '#d0d7d1' // panel
+const d = '#cfd0d3' // editor
+const i = '#dbdbdc' // sidebar
+const p = '#c5c6c9' // panel
 
-const t1 = '#3c5850' // editor text font
-const t2 = '#6f8b82' // ui text font/ editor border font
-const t3 = '#689284' // ui border color
-const t4 = '#47856e' // ui active selection
+const t1 = '#3f4446' // editor text font
+const t2 = '#5b6062' // ui text font/ editor border font
+const t3 = '#53595a' // ui border color
+const t4 = '#474e52' // ui active selection
 
 const e = color(d)
 const u = color(i)
@@ -17,16 +17,16 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#a14e30`, //
-  entity:   e`#2bbabf`, // types
-  string:   e`#788557`,
-  keyword:  e`#2c9b72`,
-  operator: e`#2c9b72`, // ++, |, &, =>, :, =, class?
-  constant: e`#b88f65`, // numbers, parameters, true, false, 
-  tag:      e`#1b9aaa`, // html tags, this?
-  markup:   e`#e08883`,
-  special:  e`#e08883`,
-  comment:  e`#6f8b82`.alpha(0.6),
+  func:     e`#c2260a`, //
+  entity:   e`#49a829`, // types
+  string:   e`#6f0611`,
+  keyword:  e`#8a5f2e`,
+  operator: e`#8a5f2e`, // ++, |, &, =>, :, =, class?
+  constant: e`#d6770a`, // numbers, parameters, true, false, 
+  tag:      e`#7ea41e`, // html tags, this?
+  markup:   e`#727c83`,
+  special:  e`#727c83`,
+  comment:  e`#3f4446`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
 
@@ -73,8 +73,8 @@ const ui = {
 }
 
 const common = { // accent is used almost everywhere...
-  accent: u`#30c573`,
-  error:  u`#E65050`
+  accent: u`#b40a0a`,
+  error:  u`#6f025e`
 }
 
 export default {

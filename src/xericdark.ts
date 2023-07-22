@@ -6,9 +6,9 @@ const i = '#2f2a28' // sidebar
 const p = '#372b25' // panel
 
 const t1 = '#cac8be' // editor text font
-const t2 = '#68748d' // ui text font/ editor border font
-const t3 = '#6e788c' // ui border color
-const t4 = '#546687' // ui active selection
+const t2 = '#787268' // ui text font/ editor border font
+const t3 = '#706b61' // ui border color
+const t4 = '#80786b' // ui active selection
 
 const e = color(d)
 const u = color(i)
@@ -18,7 +18,7 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#6bbef5`, //
-  entity:   e`#6770D1`, // types
+  entity:   e`#7166d1`, // types
   string:   e`#a2ae6b`,
   keyword:  e`#c64d08`,
   operator: e`#c64d08`, // ++, |, &, =>, :, =, class?
@@ -39,7 +39,7 @@ const vcs = {
 const editor = {
   fg: f(`${t1}`),
   bg: f(`${d}`),
-  line: f(`${t2}`),
+  line: f(`${t2}`).alpha(0.2),
   selection: {
     active:   e`#409FFF`.alpha(0.3),
     inactive: e`#409FFF`.alpha(0.13)

@@ -18,14 +18,14 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#3185fc`, //
-  entity:   e`#9148e5`, // types
+  entity:   e`#21c5d4`, // types
   string:   e`#26b65d`,
   keyword:  e`#cc4168`,
   operator: e`#cc4168`, // ++, |, &, =>, :, =, class?
   constant: e`#e25ac0`, // numbers, parameters, true, false, 
-  tag:      e`#33d1e0`, // html tags, this?
-  markup:   e`#ef8181`,
-  special:  e`#ef8181`,
+  tag:      e`#9148e5`, // html tags, this?
+  markup:   e`#472dd7`,
+  special:  e`#472dd7`,
   comment:  e`#787B80`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
