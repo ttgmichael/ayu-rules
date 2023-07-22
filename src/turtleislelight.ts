@@ -2,8 +2,8 @@ import {default as color} from './color'
 import {coolor} from './color'
 
 const d = '#FBF8F6' // editor
-const i = '#f1f5ef' // sidebar
-const p = '#eff1ee' // panel
+const i = '#F8F3F2' // sidebar
+const p = '#f6f3e8' // panel
 
 const t1 = '#3c5850' // editor text font
 const t2 = '#6f8b82' // ui text font/ editor border font
@@ -17,15 +17,15 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#b87f4a`, //
-  entity:   e`#40ceb1`, // types
-  string:   e`#5F8A3A`,
+  func:     e`#6fa83e`, //
+  entity:   e`#b87f4a`, // types
+  string:   e`#268f63`,
   keyword:  e`#094e9d`,
   operator: e`#094e9d`, // ++, |, &, =>, :, =, class?
-  constant: e`#eab26e`, // numbers, parameters, true, false, 
-  tag:      e`#00b2ca`, // html tags, this?
-  markup:   e`#268f63`,
-  special:  e`#268f63`,
+  constant: e`#00b2ca`, // numbers, parameters, true, false, 
+  tag:      e`#eab26e`, // html tags, this?
+  markup:   e`#40ceb1`,
+  special:  e`#40ceb1`,
   comment:  e`#787B80`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
@@ -73,7 +73,7 @@ const ui = {
 }
 
 const common = { // accent is used almost everywhere...
-  accent: u`#30c573`,
+  accent: u`#6fa83e`,
   error:  u`#E65050`
 }
 
