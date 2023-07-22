@@ -9,6 +9,8 @@ import rawZonai from './zonailight'
 import rawZonaiDark from './zonaidark'
 import rawPotion from './potionlight'
 import rawPotionDark from './potiondark'
+import rawTurtleIsle from './turtleislelight'
+import rawTurtleIsleDark from './turtleisledark'
 
 export type Scheme = typeof rawDark
 
@@ -29,5 +31,8 @@ export const zonaiDark: Scheme = rawZonaiDark
 
 export const potion: Scheme = rawPotion
 export const potionDark: Scheme = rawPotionDark
+
+export const turtleIsle: Scheme = rawTurtleIsle
+export const turtleIsleDark: Scheme = rawTurtleIsleDark
 
 export { alphaBlend } from './color'
