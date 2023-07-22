@@ -5,8 +5,8 @@ import rawGelpen from './gelpenlight'
 import rawGelpenDark from './gelpendark'
 import rawXeric from './xericlight'
 import rawXericDark from './xericdark'
-import rawUltrahand from './ultrahandlight'
-import rawUltrahandDark from './ultrahanddark'
+import rawZonai from './zonailight'
+import rawZonaiDark from './zonaidark'
 
 export type Scheme = typeof rawDark
 
@@ -22,7 +22,7 @@ export const gelpenDark: Scheme = rawGelpenDark
 export const xeric: Scheme = rawXeric
 export const xericDark: Scheme = rawXericDark
 
-export const ultrahand: Scheme = rawUltrahand
-export const ultrahandDark: Scheme = rawUltrahandDark
+export const zonai: Scheme = rawZonai
+export const zonaiDark: Scheme = rawZonaiDark
 
 export { alphaBlend } from './color'
