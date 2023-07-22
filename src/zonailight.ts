@@ -5,7 +5,7 @@ const d = '#ebf0ee' // editor
 const i = '#ebf0ee' // sidebar
 const p = '#dae2df' // panel
 
-const t1 = '#38514a' // editor text font
+const t1 = '#3c5850' // editor text font
 const t2 = '#6f8b82' // ui text font/ editor border font
 const t3 = '#689284' // ui border color
 const t4 = '#47856e' // ui active selection
@@ -17,16 +17,16 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#cf653f`, //
-  entity:   e`#5ad1d5`, // types
+  func:     e`#c45c36`, //
+  entity:   e`#2bbabf`, // types
   string:   e`#a3c36f`,
-  keyword:  e`#27be6b`,
-  operator: e`#27be6b`, // ++, |, &, =>, :, =, class?
+  keyword:  e`#20b161`,
+  operator: e`#20b161`, // ++, |, &, =>, :, =, class?
   constant: e`#b88f65`, // numbers, parameters, true, false, 
   tag:      e`#1b9aaa`, // html tags, this?
   markup:   e`#e08883`,
   special:  e`#e08883`,
-  comment:  e`#787B80`.alpha(0.6),
+  comment:  e`#6f8b82`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
 
@@ -39,7 +39,7 @@ const vcs = { // e.g. git added/ modified/ removed highlights
 const editor = {
   fg: f(`${t1}`), // default text font color
   bg: f(`${d}`),
-  line: f(`${t2}`).alpha(0.1),
+  line: f(`${t2}`).alpha(0.12),
   selection: {
     active:   e`#035BD6`.alpha(0.15),
     inactive: e`#035BD6`.alpha(0.07)
@@ -49,8 +49,8 @@ const editor = {
     inactive: e`#9F40FF`.alpha(0.8)
   },
   gutter: {
-    active: f(`${t2}`).alpha(0.8),
-    normal: f(`${t2}`).alpha(0.4)
+    active: f(`${t2}`),
+    normal: f(`${t2}`).alpha(0.8)
   },
   indentGuide: {
     active: f(`${t2}`).alpha(0.35),
@@ -61,7 +61,7 @@ const editor = {
 const ui = {
   fg: v(`${t2}`), // default text font color
   bg: v(`${i}`),
-  line: v(`${t3}`).alpha(0.12),
+  line: v(`${t3}`).alpha(0.4),
   selection: {
     active: v(`${t4}`).alpha(0.12),
     normal:  v(`${t3}`).alpha(0.12)
