@@ -6,7 +6,7 @@ const i = '#e3e2e9' // sidebar
 const p = '#d6d4de' // panel
 
 const t1 = '#565c61' // editor text font
-const t2 = '#7f8790' // ui text font/ editor border font
+const t2 = '#807f90' // ui text font/ editor border font
 const t3 = '#736892' // ui border color
 const t4 = '#5e4785' // ui active selection
 
