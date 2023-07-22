@@ -26,7 +26,7 @@ const syntax = {
   tag:      e`#2b5bca`, // html tags, this?
   markup:   e`#0caaaa`,
   special:  e`#0caaaa`,
-  comment:  e`#787B80`.alpha(0.6),
+  comment:  e`#807f90`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
 
