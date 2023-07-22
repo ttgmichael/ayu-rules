@@ -7,8 +7,8 @@ import rawXeric from './xericlight'
 import rawXericDark from './xericdark'
 import rawZonai from './zonailight'
 import rawZonaiDark from './zonaidark'
-import rawPotionSP from './potionsplight'
-import rawPotionSPDark from './potionspdark'
+import rawPotion from './potionlight'
+import rawPotionDark from './potiondark'
 
 export type Scheme = typeof rawDark
 
@@ -27,7 +27,7 @@ export const xericDark: Scheme = rawXericDark
 export const zonai: Scheme = rawZonai
 export const zonaiDark: Scheme = rawZonaiDark
 
-export const potion: Scheme = rawPotionSP
-export const potionDark: Scheme = rawPotionSPDark
+export const potion: Scheme = rawPotion
+export const potionDark: Scheme = rawPotionDark
 
 export { alphaBlend } from './color'

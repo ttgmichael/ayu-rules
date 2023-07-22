@@ -1,13 +1,13 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#433a64' // editor
-const i = '#362d58' // sidebar
-const p = '#30284d' // panel
+const d = '#373055' // editor
+const i = '#362e52' // sidebar
+const p = '#322b4a' // panel
 
 const t1 = '#cac6be' // editor text font
-const t2 = '#686c8d' // ui text font/ editor border font
-const t3 = '#7a6e8c' // ui border color
+const t2 = '#837887' // ui text font/ editor border font
+const t3 = '#85738c' // ui border color
 const t4 = '#81718e' // ui active selection
 
 const e = color(d)
@@ -18,11 +18,11 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#75beef`, //
-  entity:   e`#d271c3`, // types
-  string:   e`#c43b6f`,
-  keyword:  e`#3c21b7`,
-  operator: e`#3c21b7`, // ++, |, &, =>, :, =, class?
-  constant: e`#a736d4`, // numbers, parameters, true, false, 
+  entity:   e`#da8bce`, // types
+  string:   e`#dfae9a`,
+  keyword:  e`#bcaef9`,
+  operator: e`#bcaef9`, // ++, |, &, =>, :, =, class?
+  constant: e`#c43b6f`, // numbers, parameters, true, false, 
   tag:      e`#2b5bca`, // html tags, this?
   markup:   e`#0caaaa`,
   special:  e`#0caaaa`,
@@ -39,7 +39,7 @@ const vcs = {
 const editor = {
   fg: f(`${t1}`),
   bg: f(`${d}`),
-  line: f(`${t2}`),
+  line: f(`${t2}`).alpha(0.2),
   selection: {
     active:   e`#409FFF`.alpha(0.3),
     inactive: e`#409FFF`.alpha(0.13)
@@ -73,7 +73,7 @@ const ui = {
 }
 
 const common = { // accent is used almost everywhere...
-  accent: u`#61a8fa`,
+  accent: u`#b35dd5`,
   error:  u`#d43a35`
 }
 
