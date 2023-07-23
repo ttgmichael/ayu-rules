@@ -13,6 +13,10 @@ import rawTurtleIsle from './turtleislelight'
 import rawTurtleIsleDark from './turtleisledark'
 import rawRedstone from './redstone'
 import rawRedstoneDark from './redstonedark'
+import rawForager from './foragerlight'
+import rawForagerDark from './foragerdark'
+import raw100Acre from './100acrelight'
+import raw100AcreDark from './100acredark'
 
 export type Scheme = typeof rawDark
 
@@ -39,5 +43,11 @@ export const turtleIsleDark: Scheme = rawTurtleIsleDark
 
 export const redstone: Scheme = rawRedstone
 export const redstoneDark : Scheme = rawRedstoneDark
+
+export const forager: Scheme = rawForager
+export const foragerDark: Scheme = rawForagerDark
+
+export const acre: Scheme = raw100Acre
+export const acreDark: Scheme = raw100AcreDark
 
 export { alphaBlend } from './color'
