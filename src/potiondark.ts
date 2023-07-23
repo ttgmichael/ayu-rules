@@ -39,7 +39,7 @@ const vcs = {
 const editor = {
   fg: f(`${t1}`),
   bg: f(`${d}`),
-  line: f(`${t2}`).alpha(0.2),
+  line: f(`${t2}`).alpha(0.3),
   selection: {
     active:   e`#409FFF`.alpha(0.3),
     inactive: e`#409FFF`.alpha(0.13)

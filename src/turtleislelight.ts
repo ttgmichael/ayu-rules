@@ -23,7 +23,7 @@ const syntax = {
   keyword:  e`#094e9d`,
   operator: e`#094e9d`, // ++, |, &, =>, :, =, class?
   constant: e`#00b2ca`, // numbers, parameters, true, false, 
-  tag:      e`#eab26e`, // html tags, this?
+  tag:      e`#f4a748`, // html tags, this?
   markup:   e`#40ceb1`,
   special:  e`#40ceb1`,
   comment:  e`#787B80`.alpha(0.6),
@@ -39,7 +39,7 @@ const vcs = { // e.g. git added/ modified/ removed highlights
 const editor = {
   fg: f(`${t1}`), // default text font color
   bg: f(`${d}`),
-  line: f(`${t2}`).alpha(0.12),
+  line: f(`${t2}`).alpha(0.2),
   selection: {
     active:   e`#035BD6`.alpha(0.15),
     inactive: e`#035BD6`.alpha(0.07)

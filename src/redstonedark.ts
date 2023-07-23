@@ -22,7 +22,7 @@ const syntax = {
   string:   e`#d8b431`,
   keyword:  e`#8a5f2e`,
   operator: e`#8a5f2e`, // ++, |, &, =>, :, =, class?
-  constant: e`#d6770a`, // numbers, parameters, true, false, 
+  constant: e`#8366a9`, // numbers, parameters, true, false, 
   tag:      e`#7ea41e`, // html tags, this?
   markup:   e`#727c83`,
   special:  e`#727c83`,
@@ -39,7 +39,7 @@ const vcs = {
 const editor = {
   fg: f(`${t1}`),
   bg: f(`${d}`),
-  line: f(`${t2}`),
+  line: f(`${t2}`).alpha(0.3),
   selection: {
     active:   e`#409FFF`.alpha(0.3),
     inactive: e`#409FFF`.alpha(0.13)
