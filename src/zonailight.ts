@@ -1,14 +1,14 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#dedfdd' // editor
-const i = '#d8dbd7' // sidebar
-const p = '#d0d7d1' // panel
+const d = '#dfe2e1' // editor
+const i = '#d3d9d8' // sidebar
+const p = '#cdd5d3' // panel
 
-const t1 = '#4e5e45' // editor text font
-const t2 = '#6f8b82' // ui text font/ editor border font
-const t3 = '#689284' // ui border color
-const t4 = '#47856e' // ui active selection
+const t1 = '#455e5b' // editor text font
+const t2 = '#668f89' // ui text font/ editor border font
+const t3 = '#31c48e' // ui border color
+const t4 = '#5ea199' // ui active selection
 
 const e = color(d)
 const u = color(i)
@@ -19,7 +19,7 @@ const v = coolor(i)
 const syntax = {
   func:     e`#a14e30`, //
   entity:   e`#2bbabf`, // types
-  string:   e`#788557`,
+  string:   e`#808c4f`,
   keyword:  e`#2c9b72`,
   operator: e`#2c9b72`, // ++, |, &, =>, :, =, class?
   constant: e`#b88f65`, // numbers, parameters, true, false, 
@@ -39,7 +39,7 @@ const vcs = { // e.g. git added/ modified/ removed highlights
 const editor = {
   fg: f(`${t1}`), // default text font color
   bg: f(`${d}`),
-  line: f(`${t2}`).alpha(0.2),
+  line: f(`${t2}`).alpha(0.15),
   selection: {
     active:   e`#035BD6`.alpha(0.15),
     inactive: e`#035BD6`.alpha(0.07)

@@ -6,7 +6,7 @@ const i = '#eaece9' // sidebar
 const p = '#e0e3de' // panel
 
 const t1 = '#454f30' // editor text font
-const t2 = '#5db15f' // ui text font/ editor border font
+const t2 = '#578e58' // ui text font/ editor border font
 const t3 = '#77ac6c' // ui border color
 const t4 = '#77ac6c' // ui active selection
 
@@ -61,7 +61,7 @@ const editor = {
 const ui = {
   fg: v(`${t2}`), // default text font color
   bg: v(`${i}`),
-  line: v(`${t3}`).alpha(0.2),
+  line: v(`${t3}`).alpha(0.25),
   selection: {
     active: v(`${t4}`).alpha(0.12),
     normal:  v(`${t3}`).alpha(0.2)

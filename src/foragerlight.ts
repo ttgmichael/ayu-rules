@@ -5,8 +5,8 @@ const d = '#e3e0de' // editor
 const i = '#e6e2e0' // sidebar
 const p = '#e6e2e0' // panel
 
-const t1 = '#4f3530' // editor text font
-const t2 = '#8b776f' // ui text font/ editor border font
+const t1 = '#504a49' // editor text font
+const t2 = '#927568' // ui text font/ editor border font
 const t3 = '#927568' // ui border color
 const t4 = '#955f56' // ui active selection
 
@@ -20,8 +20,8 @@ const syntax = {
   func:     e`#629528`, //
   entity:   e`#735286`, // types
   string:   e`#b168b1`,
-  keyword:  e`#a66262`,
-  operator: e`#a66262`, // ++, |, &, =>, :, =, class?
+  keyword:  e`#a15959`,
+  operator: e`#a15959`, // ++, |, &, =>, :, =, class?
   constant: e`#cd7d4b`, // numbers, parameters, true, false, 
   tag:      e`#777da7`, // html tags, this?
   markup:   e`#a0b42f`,
@@ -61,7 +61,7 @@ const editor = {
 const ui = {
   fg: v(`${t2}`), // default text font color
   bg: v(`${i}`),
-  line: v(`${t3}`).alpha(0.6),
+  line: v(`${t3}`).alpha(0.25),
   selection: {
     active: v(`${t4}`).alpha(0.12),
     normal:  v(`${t3}`).alpha(0.2)

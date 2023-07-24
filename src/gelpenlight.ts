@@ -17,9 +17,9 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#3185fc`, //
+  func:     e`#257df8`, //
   entity:   e`#21c5d4`, // types
-  string:   e`#26b65d`,
+  string:   e`#23af58`,
   keyword:  e`#cc4168`,
   operator: e`#cc4168`, // ++, |, &, =>, :, =, class?
   constant: e`#e25ac0`, // numbers, parameters, true, false, 
@@ -61,7 +61,7 @@ const editor = {
 const ui = {
   fg: v(`${t2}`), // default text font color
   bg: v(`${i}`),
-  line: v(`${t3}`).alpha(0.12),
+  line: v(`${t3}`).alpha(0.25),
   selection: {
     active: v(`${t4}`).alpha(0.12),
     normal:  v(`${t3}`).alpha(0.12)

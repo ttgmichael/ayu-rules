@@ -61,7 +61,7 @@ const editor = {
 const ui = {
   fg: v(`${t2}`), // default text font color
   bg: v(`${i}`),
-  line: v(`${t3}`).alpha(0.4),
+  line: v(`${t3}`).alpha(0.25),
   selection: {
     active: v(`${t4}`).alpha(0.12),
     normal:  v(`${t3}`).alpha(0.12)

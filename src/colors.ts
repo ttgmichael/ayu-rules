@@ -17,6 +17,8 @@ import rawForager from './foragerlight'
 import rawForagerDark from './foragerdark'
 import raw100Acre from './100acrelight'
 import raw100AcreDark from './100acredark'
+import rawNeongel from './neongellight'
+import rawNeongelDark from './neongeldark'
 
 export type Scheme = typeof rawDark
 
@@ -49,5 +51,9 @@ export const foragerDark: Scheme = rawForagerDark
 
 export const acre: Scheme = raw100Acre
 export const acreDark: Scheme = raw100AcreDark
+
+export const neongel: Scheme = rawNeongel
+export const neongelDark: Scheme = rawNeongelDark
+
 
 export { alphaBlend } from './color'
