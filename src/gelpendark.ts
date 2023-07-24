@@ -6,7 +6,7 @@ const i = '#1f2b41' // sidebar
 const p = '#283448' // panel
 
 const t1 = '#cac8be' // editor text font
-const t2 = '#4d586f' // ui text font/ editor border font
+const t2 = '#788297' // ui text font/ editor border font
 const t3 = '#6e788c' // ui border color
 const t4 = '#546687' // ui active selection
 
@@ -26,7 +26,7 @@ const syntax = {
   tag:      e`#9148e5`, // html tags, this?
   markup:   e`#8681ef`,
   special:  e`#8681ef`,
-  comment:  e`#4d586f`.alpha(0.6),
+  comment:  e`#788297`.alpha(0.6),
   regexp:   e`#26b65d`.alpha(0.6),
 }
 
