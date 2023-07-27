@@ -39,7 +39,7 @@ const vcs = { // e.g. git added/ modified/ removed highlights
 const editor = {
   fg: f(`${t1}`), // default text font color
   bg: f(`${d}`),
-  line: f(`${t2}`).alpha(0.2),
+  line: f(`${t2}`).alpha(0.15),
   selection: {
     active:   e`#035BD6`.alpha(0.15),
     inactive: e`#035BD6`.alpha(0.07)
