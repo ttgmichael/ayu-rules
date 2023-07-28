@@ -27,7 +27,7 @@ const syntax = {
   markup:   e`#8681ef`,
   special:  e`#8681ef`,
   comment:  e`#788297`.alpha(0.6),
-  regexp:   e`#26b65d`.alpha(0.6),
+  regexp:   e`#8681ef`,
 }
 
 const vcs = {

@@ -27,7 +27,7 @@ const syntax = {
   markup:   e`#727c83`,
   special:  e`#727c83`,
   comment:  e`#3f4446`.alpha(0.6),
-  regexp:   e`#26b65d`.alpha(0.6),
+  regexp:   e`#727c83`,
 }
 
 const vcs = { // e.g. git added/ modified/ removed highlights
