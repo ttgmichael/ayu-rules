@@ -15,8 +15,8 @@ import rawRedstone from './redstone'
 import rawRedstoneDark from './redstonedark'
 import rawForager from './foragerlight'
 import rawForagerDark from './foragerdark'
-import raw100Acre from './100acrelight'
-import raw100AcreDark from './100acredark'
+import rawAcrewood from './acrewoodlight'
+import rawAcrewoodDark from './acrewooddark'
 import rawNeongel from './neongellight'
 import rawNeongelDark from './neongeldark'
 
@@ -49,8 +49,8 @@ export const redstoneDark : Scheme = rawRedstoneDark
 export const forager: Scheme = rawForager
 export const foragerDark: Scheme = rawForagerDark
 
-export const acre: Scheme = raw100Acre
-export const acreDark: Scheme = raw100AcreDark
+export const acre: Scheme = rawAcrewood
+export const acreDark: Scheme = rawAcrewoodDark
 
 export const neongel: Scheme = rawNeongel
 export const neongelDark: Scheme = rawNeongelDark
