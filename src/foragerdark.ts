@@ -1,9 +1,9 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#1e1b22' // editor
-const i = '#1c1b23' // sidebar
-const p = '#1c1820' // panel
+const d = '#1e1c26' // editor
+const i = '#1c1825' // sidebar
+const p = '#1c1825' // panel
 
 const t1 = '#c4c3ba' // editor text font
 const t2 = '#786876' // ui text font/ editor border font
@@ -20,14 +20,14 @@ const syntax = {
   func:     e`#59a94b`, //
   entity:   e`#735286`, // types
   string:   e`#9a6091`,
-  keyword:  e`#982649`,
-  operator: e`#982649`, // ++, |, &, =>, :, =, class?
+  keyword:  e`#a93256`,
+  operator: e`#a93256`, // ++, |, &, =>, :, =, class?
   constant: e`#d57521`, // numbers, parameters, true, false, 
   tag:      e`#777da7`, // html tags, this?
-  markup:   e`#808b41`,
-  special:  e`#808b41`,
+  markup:   e`#a0b42f`,
+  special:  e`#a0b42f`,
   comment:  e`#786876`.alpha(0.6),
-  regexp:   e`#808b41`,
+  regexp:   e`#a0b42f`,
 }
 
 const vcs = {

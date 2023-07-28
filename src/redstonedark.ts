@@ -6,7 +6,7 @@ const i = '#200110' // sidebar
 const p = '#150f11' // panel
 
 const t1 = '#c9c2c0' // editor text font
-const t2 = '#684b4c' // ui text font/ editor border font
+const t2 = '#765152' // ui text font/ editor border font
 const t3 = '#523d3e' // ui border color
 const t4 = '#3e2323' // ui active selection
 
@@ -20,14 +20,14 @@ const syntax = {
   func:     e`#b32309`, //
   entity:   e`#53b234`, // types
   string:   e`#d8b431`,
-  keyword:  e`#8a5f2e`,
-  operator: e`#8a5f2e`, // ++, |, &, =>, :, =, class?
+  keyword:  e`#a06a2c`,
+  operator: e`#a06a2c`, // ++, |, &, =>, :, =, class?
   constant: e`#8366a9`, // numbers, parameters, true, false, 
   tag:      e`#7ea41e`, // html tags, this?
-  markup:   e`#727c83`,
-  special:  e`#727c83`,
-  comment:  e`#684b4c`.alpha(0.6),
-  regexp:   e`#727c83`,
+  markup:   e`#d3a17e`,
+  special:  e`#d3a17e`,
+  comment:  e`#765152`.alpha(0.7),
+  regexp:   e`#d3a17e`,
 }
 
 const vcs = {

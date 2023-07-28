@@ -1,8 +1,8 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#e7e7e9' // editor
-const i = '#e3e2e9' // sidebar
+const d = '#e2e1e5' // editor
+const i = '#dfdee3' // sidebar
 const p = '#d6d4de' // panel
 
 const t1 = '#565c61' // editor text font
@@ -17,12 +17,12 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#75beef`, //
-  entity:   e`#d271c3`, // types
-  string:   e`#CD9681`,
+  func:     e`#58afe9`, //
+  entity:   e`#db48db`, // types
+  string:   e`#de643f`,
   keyword:  e`#3c21b7`,
   operator: e`#3c21b7`, // ++, |, &, =>, :, =, class?
-  constant: e`#c43b6f`, // numbers, parameters, true, false, 
+  constant: e`#bd326c`, // numbers, parameters, true, false, 
   tag:      e`#2b5bca`, // html tags, this?
   markup:   e`#0caaaa`,
   special:  e`#0caaaa`,

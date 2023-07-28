@@ -18,16 +18,16 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#c2260a`, //
-  entity:   e`#49a829`, // types
+  entity:   e`#3fac1b`, // types
   string:   e`#6f0611`,
-  keyword:  e`#8a5f2e`,
-  operator: e`#8a5f2e`, // ++, |, &, =>, :, =, class?
+  keyword:  e`#825a2b`,
+  operator: e`#825a2b`, // ++, |, &, =>, :, =, class?
   constant: e`#8366a9`, // numbers, parameters, true, false, 
-  tag:      e`#7ea41e`, // html tags, this?
-  markup:   e`#727c83`,
-  special:  e`#727c83`,
-  comment:  e`#3f4446`.alpha(0.6),
-  regexp:   e`#727c83`,
+  tag:      e`#7f9810`, // html tags, this?
+  markup:   e`#a87048`,
+  special:  e`#a87048`,
+  comment:  e`#3f4446`.alpha(0.8),
+  regexp:   e`#a87048`,
 }
 
 const vcs = { // e.g. git added/ modified/ removed highlights

@@ -23,7 +23,7 @@ const syntax = {
   keyword:  e`#bcaef9`,
   operator: e`#bcaef9`, // ++, |, &, =>, :, =, class?
   constant: e`#c43b6f`, // numbers, parameters, true, false, 
-  tag:      e`#2b5bca`, // html tags, this?
+  tag:      e`#4973d4`, // html tags, this?
   markup:   e`#0caaaa`,
   special:  e`#0caaaa`,
   comment:  e`#787B80`.alpha(0.6),
