@@ -5,7 +5,7 @@ const d = '#180d10' // editor
 const i = '#200110' // sidebar
 const p = '#150f11' // panel
 
-const t1 = '#c9c2c0' // editor text font
+const t1 = '#c5bcba' // editor text font
 const t2 = '#765152' // ui text font/ editor border font
 const t3 = '#523d3e' // ui border color
 const t4 = '#3e2323' // ui active selection
@@ -19,11 +19,11 @@ const v = coolor(i)
 const syntax = {
   func:     e`#b32309`, //
   entity:   e`#53b234`, // types
-  string:   e`#d8b431`,
+  string:   e`#7ea41e`,
   keyword:  e`#a06a2c`,
   operator: e`#a06a2c`, // ++, |, &, =>, :, =, class?
   constant: e`#8366a9`, // numbers, parameters, true, false, 
-  tag:      e`#7ea41e`, // html tags, this?
+  tag:      e`#d8b431`, // html tags, this?
   markup:   e`#d3a17e`,
   special:  e`#d3a17e`,
   comment:  e`#765152`.alpha(0.7),

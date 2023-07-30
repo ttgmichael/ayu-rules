@@ -1,14 +1,14 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#d7e9d3' // editor
-const i = '#cbe6cd' // sidebar
-const p = '#c5e8c7' // panel
+const d = '#f5f5ea' // editor
+const i = '#f2f5ea' // sidebar
+const p = '#f2f5ea' // panel
 
-const t1 = '#454f30' // editor text font
-const t2 = '#578e58' // ui text font/ editor border font
-const t3 = '#77ac6c' // ui border color
-const t4 = '#77ac6c' // ui active selection
+const t1 = '#093518' // editor text font
+const t2 = '#578e61' // ui text font/ editor border font
+const t3 = '#578e61' // ui border color
+const t4 = '#6cac83' // ui active selection
 
 const e = color(d)
 const u = color(i)
@@ -18,15 +18,15 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#cf2a35`, //
-  entity:   e`#e29f32`, // types
-  string:   e`#e2732f`,
+  entity:   e`#ea9a1a`, // types
+  string:   e`#d7651d`,
   keyword:  e`#369137`,
   operator: e`#369137`, // ++, |, &, =>, :, =, class?
-  constant: e`#8e55bf`, // numbers, parameters, true, false, 
+  constant: e`#884fba`, // numbers, parameters, true, false, 
   tag:      e`#e28692`, // html tags, this?
   markup:   e`#8288bb`,
   special:  e`#8288bb`,
-  comment:  e`#62a456`.alpha(0.6),
+  comment:  e`#578e61`.alpha(0.6),
   regexp:   e`#8288bb`,
 }
 
@@ -73,7 +73,7 @@ const ui = {
 }
 
 const common = { // accent is used almost everywhere...
-  accent: u`#f1c646`,
+  accent: u`#efa32a`,
   error:  u`#E65050`
 }
 
