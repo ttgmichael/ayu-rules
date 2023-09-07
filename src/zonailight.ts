@@ -1,8 +1,8 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#dfe2e1' // editor
-const i = '#d3d9d8' // sidebar
+const d = '#e3e8e6' // editor
+const i = '#dde3e2' // sidebar
 const p = '#cdd5d3' // panel
 
 const t1 = '#455e5b' // editor text font
@@ -17,17 +17,17 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#a14e30`, //
+  func:     e`#954c32`, //
   entity:   e`#2bbabf`, // types
-  string:   e`#808c4f`,
-  keyword:  e`#2c9b72`,
-  operator: e`#2c9b72`, // ++, |, &, =>, :, =, class?
-  constant: e`#b88f65`, // numbers, parameters, true, false, 
+  string:   e`#8f894d`,
+  keyword:  e`#258864`,
+  operator: e`#258864`, // ++, |, &, =>, :, =, class?
+  constant: e`#c17d2f`, // numbers, parameters, true, false, 
   tag:      e`#268fb5`, // html tags, this?
-  markup:   e`#e08883`,
-  special:  e`#e08883`,
+  markup:   e`#d57b76`,
+  special:  e`#d57b76`,
   comment:  e`#6f8b82`.alpha(0.8),
-  regexp:   e`#e08883`,
+  regexp:   e`#d57b76`,
 }
 
 const vcs = { // e.g. git added/ modified/ removed highlights

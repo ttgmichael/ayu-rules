@@ -6,8 +6,8 @@ const i = '#1a1d38' // sidebar
 const p = '#24294c' // panel
 
 const t1 = '#c4c3ba' // editor text font
-const t2 = '#8e9395' // ui text font/ editor border font
-const t3 = '#909798' // ui border color
+const t2 = '#929ca0' // ui text font/ editor border font
+const t3 = '#929ca0' // ui border color
 const t4 = '#8f9799' // ui active selection
 
 const e = color(d)
@@ -22,7 +22,7 @@ const syntax = {
   string:   e`#e2732f`,
   keyword:  e`#5fbf60`,
   operator: e`#5fbf60`, // ++, |, &, =>, :, =, class?
-  constant: e`#8e55bf`, // numbers, parameters, true, false, 
+  constant: e`#996dc0`, // numbers, parameters, true, false, 
   tag:      e`#e28692`, // html tags, this?
   markup:   e`#8288bb`,
   special:  e`#8288bb`,

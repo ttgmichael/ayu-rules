@@ -2,7 +2,7 @@ import {default as color} from './color'
 import {coolor} from './color'
 
 const d = '#f3f2f2' // editor
-const i = '#ebe8e5' // sidebar
+const i = '#eeebe8' // sidebar
 const p = '#e2deda' // panel
 
 const t1 = '#565c61' // editor text font

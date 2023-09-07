@@ -1,12 +1,12 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#e3e0de' // editor
-const i = '#e6e2e0' // sidebar
+const d = '#e6e2e0' // editor
+const i = '#e3e0de' // sidebar
 const p = '#e6e2e0' // panel
 
 const t1 = '#504a49' // editor text font
-const t2 = '#927568' // ui text font/ editor border font
+const t2 = '#856c60' // ui text font/ editor border font
 const t3 = '#927568' // ui border color
 const t4 = '#955f56' // ui active selection
 

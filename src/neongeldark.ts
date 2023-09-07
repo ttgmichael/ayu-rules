@@ -17,7 +17,7 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#356CD2`, //
+  func:     e`#4577d3`, //
   entity:   e`#EB5910`, // types
   string:   e`#86CB0E`,
   keyword:  e`#CD19B2`,
