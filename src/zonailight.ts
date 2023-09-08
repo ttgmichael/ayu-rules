@@ -1,8 +1,8 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#e6e8e6' // editor
-const i = '#e3e3e3' // sidebar e0e3e0
+const d = '#e8e9e8' // editor
+const i = '#e5e5e5' // sidebar e0e3e0
 const p = '#cdd5d0' // panel
 
 const t1 = '#304b48' // editor text font
@@ -23,7 +23,7 @@ const syntax = {
   keyword:  e`#099a65`,
   operator: e`#099a65`, // ++, |, &, =>, :, =, class?
   constant: e`#c28b0a`, // numbers, parameters, true, false, 
-  tag:      e`#28b3b8`, // html tags, this?
+  tag:      e`#28b8ae`, // html tags, this?
   markup:   e`#ba4f4f`,
   special:  e`#ba4f4f`,
   comment:  e`#6f8b82`.alpha(0.8),
