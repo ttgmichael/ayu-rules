@@ -1,11 +1,11 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#e3e8e6' // editor
-const i = '#dde3e2' // sidebar
-const p = '#cdd5d3' // panel
+const d = '#e6e8e6' // editor
+const i = '#e3e3e3' // sidebar e0e3e0
+const p = '#cdd5d0' // panel
 
-const t1 = '#455e5b' // editor text font
+const t1 = '#304b48' // editor text font
 const t2 = '#668f89' // ui text font/ editor border font
 const t3 = '#31c48e' // ui border color
 const t4 = '#5ea199' // ui active selection
@@ -18,16 +18,16 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#954c32`, //
-  entity:   e`#2bbabf`, // types
-  string:   e`#8f894d`,
-  keyword:  e`#258864`,
-  operator: e`#258864`, // ++, |, &, =>, :, =, class?
-  constant: e`#c17d2f`, // numbers, parameters, true, false, 
-  tag:      e`#268fb5`, // html tags, this?
-  markup:   e`#d57b76`,
-  special:  e`#d57b76`,
+  entity:   e`#268fb5`, // types
+  string:   e`#817922`,
+  keyword:  e`#099a65`,
+  operator: e`#099a65`, // ++, |, &, =>, :, =, class?
+  constant: e`#c28b0a`, // numbers, parameters, true, false, 
+  tag:      e`#28b3b8`, // html tags, this?
+  markup:   e`#ba4f4f`,
+  special:  e`#ba4f4f`,
   comment:  e`#6f8b82`.alpha(0.8),
-  regexp:   e`#d57b76`,
+  regexp:   e`#ba4f4f`,
 }
 
 const vcs = { // e.g. git added/ modified/ removed highlights
