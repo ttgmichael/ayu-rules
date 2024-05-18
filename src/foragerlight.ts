@@ -17,17 +17,17 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#629528`, //
+  func:     e`#5a8a24`, //
   entity:   e`#744b8b`, // types
-  string:   e`#b168b1`,
+  string:   e`#9f509f`,
   keyword:  e`#a84d4d`,
   operator: e`#a84d4d`, // ++, |, &, =>, :, =, class?
-  constant: e`#cd7d4b`, // numbers, parameters, true, false, 
-  tag:      e`#777da7`, // html tags, this?
-  markup:   e`#8fa12b`,
-  special:  e`#8fa12b`,
+  constant: e`#c76c33`, // numbers, parameters, true, false, 
+  tag:      e`#676d9e`, // html tags, this?
+  markup:   e`#83932a`,
+  special:  e`#83932a`,
   comment:  e`#8b776f`.alpha(0.8),
-  regexp:   e`#8fa12b`,
+  regexp:   e`#83932a`,
 }
 
 const vcs = { // e.g. git added/ modified/ removed highlights

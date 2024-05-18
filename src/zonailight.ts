@@ -1,13 +1,13 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#e8e9e8' // editor
-const i = '#e5e5e5' // sidebar e0e3e0
-const p = '#cdd5d0' // panel
+const d = '#d8d9d2' // editor
+const i = '#d4d5d0' // sidebar d1d4ce
+const p = '#cfd3cd' // panel
 
-const t1 = '#304b48' // editor text font
-const t2 = '#668f89' // ui text font/ editor border font
-const t3 = '#31c48e' // ui border color
+const t1 = '#284333' // editor text font
+const t2 = '#4d6f6a' // ui text font/ editor border font
+const t3 = '#31c47a' // ui border color 31c48e
 const t4 = '#5ea199' // ui active selection
 
 const e = color(d)
@@ -18,12 +18,12 @@ const v = coolor(i)
 
 const syntax = {
   func:     e`#954c32`, //
-  entity:   e`#268fb5`, // types
-  string:   e`#817922`,
+  entity:   e`#268ab5`, // types
+  string:   e`#757524`,
   keyword:  e`#099a65`,
   operator: e`#099a65`, // ++, |, &, =>, :, =, class?
-  constant: e`#c28b0a`, // numbers, parameters, true, false, 
-  tag:      e`#28b8ae`, // html tags, this?
+  constant: e`#e18105`, // numbers, parameters, true, false, 
+  tag:      e`#13c3b7`, // html tags, this?
   markup:   e`#ba4f4f`,
   special:  e`#ba4f4f`,
   comment:  e`#6f8b82`.alpha(0.8),
@@ -61,7 +61,7 @@ const editor = {
 const ui = {
   fg: v(`${t2}`), // default text font color
   bg: v(`${i}`),
-  line: v(`${t3}`).alpha(0.4),
+  line: v(`${t3}`).alpha(0.9),
   selection: {
     active: v(`${t4}`).alpha(0.12),
     normal:  v(`${t3}`).alpha(0.12)
@@ -73,7 +73,7 @@ const ui = {
 }
 
 const common = { // accent is used almost everywhere...
-  accent: u`#30c573`,
+  accent: u`#209764`,
   error:  u`#E65050`
 }
 

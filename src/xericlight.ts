@@ -19,11 +19,11 @@ const v = coolor(i)
 const syntax = {
   func:     e`#2568ce`, //
   entity:   e`#765ac4`, // types
-  string:   e`#a2ae6b`,
-  keyword:  e`#c64d08`,
-  operator: e`#c64d08`, // ++, |, &, =>, :, =, class?
+  string:   e`#8a9362`,
+  keyword:  e`#c45608`,
+  operator: e`#c45608`, // ++, |, &, =>, :, =, class?
   constant: e`#DDA420`, // numbers, parameters, true, false, 
-  tag:      e`#e08883`, // html tags, this?
+  tag:      e`#c15853`, // html tags, this?
   markup:   e`#cea260`,
   special:  e`#cea260`,
   comment:  e`#787B80`.alpha(0.6),

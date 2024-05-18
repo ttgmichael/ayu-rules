@@ -1,8 +1,8 @@
 import {default as color} from './color'
 import {coolor} from './color'
 
-const d = '#cfd0d5' // editor
-const i = '#dbdbdf' // sidebar
+const d = '#d3d4d9' // editor
+const i = '#d9d9dd' // sidebar
 const p = '#c5c6c9' // panel
 
 const t1 = '#4a404f' // editor text font

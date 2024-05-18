@@ -3,7 +3,7 @@ import {coolor} from './color'
 
 const d = '#173030' // editor
 const i = '#1a2929' // sidebar
-const p = '#1f2e2e' // panel
+const p = '#1e3333' // panel
 
 const t1 = '#cac8be' // editor text font
 const t2 = '#688d7f' // ui text font/ editor border font
@@ -17,7 +17,7 @@ const f = coolor(d)
 const v = coolor(i)
 
 const syntax = {
-  func:     e`#cf653f`, //
+  func:     e`#d67551`, //
   entity:   e`#5ad1d5`, // types
   string:   e`#a3c36f`,
   keyword:  e`#60d394`,
